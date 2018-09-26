@@ -23,7 +23,7 @@ public class Controller {
 	@RequestMapping(value = "/getUser", method = RequestMethod.GET)
 	public User getUser() {
 		User u = new User();
-		u.setName("张三");
+		u.setName("mynames");
 		u.setAge(33);
 		u.setCreateTime(new Date());
 		return u;
